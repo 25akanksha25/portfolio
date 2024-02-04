@@ -1,0 +1,534 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Josefin Sans, sans-serif;
+    box-sizing: border-box;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-color: #101010;
+    background-image: url(./WhatsApp\ Image\ 2024-01-21\ at\ 4.12.14\ PM.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo{
+    color: rgb(255, 252, 252);
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+h2{
+    color: #ff0000;
+    font-size: 170% ;
+    text-align: center;
+    margin-left: 50px;
+    
+} 
+span{
+    color: #c62424;
+} 
+#two 
+{
+    /* text-align: end; */
+    /* display: flex;     */
+    float: right;
+}
+#one{
+    /* display: flex; */
+    float: left;
+}
+
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 25px;
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: #c62424;
+    transition: 0.4s;
+
+} 
+
+.btn{
+    background-color: #c62424;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transform: transform 0.4s;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: #c62424;
+    border: 2px solid #c62424;
+    transition: 0.4s;
+}
+
+ 
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translateY(-50%);
+    
+}
+.content .btn
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 230px;
+}
+.content h1
+{
+    margin-left: 110px;
+    color: aliceblue;
+}
+.content h2
+{
+    font-size: 1.1cm;
+}
+
+h1{
+    color: rgb(42, 39, 39);
+    margin: 20px 0px 20px;
+    font-size: 75px;
+    margin-left: 50px;
+
+}
+
+h3{
+    color: white;
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+h4{
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+
+}
+
+.about img{
+    height: auto;
+    width: 460px;
+    border-radius: 20px;
+    margin-right: 150px;
+}
+
+.about-text{
+   width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 75px;
+    text-transform: capitalize;
+}
+
+.about-text h5{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 22px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+.about-text p{
+    color: #fcfc;
+    margin-bottom: 45px;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+
+.features{
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2{
+    color: white;
+    width: 1130px;
+    margin: 30px auto;
+    font-size: 75px;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card{
+    padding-top: 25px;
+    height: 430px;
+    width: 350px;
+    background: #101010;
+    border: 2px solid white;
+    padding: 20px 35px;
+    margin: 50px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+
+.card .button{
+    background-color: #c62424;
+        color: white;
+        text-decoration: none;
+        border: 2px solid transparent;
+        font-weight: bold;
+        padding: 9px 22px;
+        border-radius: 30px;
+        transform: transform 0.4s;
+}
+
+.card .button:hover{
+    background-color: transparent;
+    color: #c62424;
+    border: 2px solid #c62424;
+    transition: 0.4s;
+}
+
+
+
+
+.sub-footer{
+    width: 100%;
+    height: 825px;
+    background: #232323;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+     
+}
+
+.sub-footer p{
+    text-align: center;
+    width: 800px;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.sub-footer p h1
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-right: 50px;
+    margin-bottom: 150px;
+   
+    
+
+}
+.sub-footer h3
+{
+    font-style: italic;
+    font-size: medium;
+    text-align: center;
+}
+
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background:#101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+}
+
+footer p{
+    color: white;
+    font-size: 20px;
+
+}
+
+/* --------------------------- */
+.allskills {
+    background-color: transparent;
+    background-image: url(./Black\ wrinkled\ paper\ wallpaper\,\ phone\ wallpaper\ by\ belarteSTUDIO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* display: flex;
+    justify-self: center;
+    align-items: center; */
+    width: 756.5px;
+    float: left;
+    height: 700px;
+    /* border:1px solid white; */
+    padding: 10px;
+  }
+  
+  .skills-container {
+    width: 500px;
+    background-color:transparent;
+    padding: 50px;
+    /* border:1px solid white; */
+    /* margin-top: 0px; */
+    /* margin-bottom: 500px; */
+  }
+  
+  .skills-title {
+    margin-bottom: 50px;
+    margin-left: 10px;
+    color:white;
+    transform: scale(1.0);
+    /* padding: 10px; */
+    /* border:1px solid white; */
+  }
+  #skills-sub{
+    margin-left: 0px;
+    /* margin-right: 800px; */
+    /* margin-top: 0px; */
+    display: flex;
+    color: rgb(230, 37, 30);
+  }
+  .skill-item {
+    color:white;
+    margin-bottom: 20px;
+    background-color:transparent;
+    padding: 2px;
+    /* border:1px solid white; */
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .skill-level {
+    height: 10px;
+    background-color:rgb(154, 148, 148);
+    border-radius: 5px;
+    /* border:1px solid white; */
+  }
+  .alleducation {
+              font-family: Arial, sans-serif;
+              background-color: transparent;
+              background-image: url(./Black\ wrinkled\ paper\ wallpaper\,\ phone\ wallpaper\ by\ belarteSTUDIO.jpg);
+              background-repeat: no-repeat;
+              background-size: cover;
+              display: flex;
+              /* padding: 100px; */
+              float: right;
+              height: 700px;
+              width: 756px;
+              margin-top: 0px;
+              /* margin-right: 600px; */
+              /* border:10px solid red;*/
+          }
+            #edu-sub{
+                color:white;
+                font-weight: bolder;
+                font-size: 1.1cm;
+                margin-top: 15px;
+                color: rgb(230, 37, 30);
+                
+            }
+
+          .timeline {
+              position: relative;
+              max-width: 10px;
+              width: 100%;
+              margin-top: 70px;
+          }
+          .timeline-content
+          {
+            font-size: 0.8cm;
+          }
+  
+          .timeline-item {
+              display: flex;
+              justify-content: flex-start;
+              align-items: center;
+              margin-bottom: 20px;
+              position: relative;
+          }
+  
+          .timeline-item::before {
+              content: '';
+              width: 20px;
+              height: 20px;
+              background-color:white;
+              border-radius: 50%;
+              margin-right: 10px;
+              margin-top: 0px;
+              z-index: 2;
+          }
+  
+          .timeline-item:after {
+              content: '';
+              position: absolute;
+              left: 50%;
+              background-color:white;
+              height: calc(100% + 20px);
+              width: 2px;
+              transform: translateX(-50%);
+              z-index: 1;
+          }
+  
+          .timeline-content {
+              color: white;
+              min-width: max-content;
+              min-height:160px;
+              display:flexbox;
+              padding: 20px;
+              z-index: 2;
+          }
+         
+          .timeline-item::before {
+              background-color:white;
+              z-index: 3; 
+          }
+  
+          .timeline-item:nth-child(1)::before {
+              content: '';
+              position: absolute;
+              left: 50%;
+              top: 50%;
+              transform: translate(-50%, -50%);
+          }
+  
+          .timeline-item:nth-child(2)::before {
+              content: '';
+              position: absolute;
+              left: 50%;
+              top: 55%;
+              transform: translate(-50%, -50%);
+          }
+  
+          .timeline-item:nth-child(3)::before {
+              content: '';
+              position: absolute;
+              left: 50%;
+              top: 50%;
+              transform: translate(-50%, -50%);
+          }
+          .education-title{
+              color: white;
+              height: 50px;
+              display: flex;
+              /* justify-self: center; */
+              /* align-items:center ; */
+              transform: rotate(270deg) scale(1.5);
+              margin-top: 350px;
+              margin-left:-60px;
+              padding: 0px;
+              
+          }
+
+.contact
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+
+}
+.contact1
+{
+    padding-top: 25px;
+    height: 200px;
+    width: 200px;
+    background: #232323;
+    /* border: 2px solid beige; */
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.contact3
+{
+    padding-top: 25px;
+    height: 200px;
+    width: 200px;
+    background: #232323;
+    border-right: 3px solid beige;
+    border-left: 3px solid beige;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    margin-left: 40px;
+    margin-right: 40px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.form2
+{
+    /* border: 1px solid  #ff0000; */
+    height: 35px;
+    width: 450px;
+    border: 2px dotted rgb(114, 82, 88);
+
+}
+.form .btn
+{
+    margin-left: 170px;
+}
+.map
+{
+    background-color: #232323;
+}
